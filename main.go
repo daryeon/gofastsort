@@ -20,4 +20,9 @@ func main() {
 	arr3 := []int{3, 2, 4, 2, 1, 5, 6, 7, 5, 6, 7, 8, 5, 4, 3, 8, 9, 7, 6, 7}
 	SelectSort(arr3)
 	fmt.Println(arr3)
+
+	// 插入排序
+	arr4 := []int{3, 2, 4, 2, 1, 5, 6, 7, 5, 6, 7, 8, 5, 4, 3, 8, 9, 7, 6, 7}
+	CharuSort(arr4)
+	fmt.Println(arr4)
 }
