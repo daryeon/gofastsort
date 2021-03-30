@@ -25,4 +25,9 @@ func main() {
 	arr4 := []int{3, 2, 4, 2, 1, 5, 6, 7, 5, 6, 7, 8, 5, 4, 3, 8, 9, 7, 6, 7}
 	CharuSort(arr4)
 	fmt.Println(arr4)
+
+	// 归并排序
+	arr5 := []int{3, 2, 4, 2, 1, 5, 6, 7, 5, 6, 7, 8, 5, 4, 3, 8, 9, 7, 6, 7}
+	arr5 = GuibingSort(arr5)
+	fmt.Println(arr5)
 }
