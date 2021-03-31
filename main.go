@@ -30,4 +30,9 @@ func main() {
 	arr5 := []int{3, 2, 4, 2, 1, 5, 6, 7, 5, 6, 7, 8, 5, 4, 3, 8, 9, 7, 6, 7}
 	arr5 = GuibingSort(arr5)
 	fmt.Println(arr5)
+
+	// 堆排序
+	arr6 := []int{3, 2, 4, 2, 1, 5, 6, 7, 5, 6, 7, 8, 5, 4, 3, 8, 9, 7, 6, 7}
+	HeapSort(arr6)
+	fmt.Println(arr6)
 }
